@@ -1,0 +1,123 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  visibility: hidden;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  color: #212121;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.site-nav .link {
+  color: #212121;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.contacts-header .link {
+  color: #757575;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+  color: #2196f3;
+}
+
+.button {
+  color: #212121;
+  background-color: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 6px 22px;
+  display: inline-block;
+}
+
+.main .list:hover,
+.main .list:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.projects-title {
+  color: #212121;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.projects a {
+  text-decoration: none;
+}
+.projects-text {
+  color: #757575;
+
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.footer {
+  background-color: #2f303a;
+  height: 255px;
+}
+
+.logo-white {
+  color: #ffffff;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.address {
+  color: #ffffff;
+
+  font-size: 14px;
+  line-height: 1.17;
+  text-decoration: none;
+}
+
+.footer-address .link {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 1.17;
+  text-decoration: none;
+}
+
+.footer-address .link:hover,
+.footer-address .link:focus {
+  color: #2196f3;
+}
