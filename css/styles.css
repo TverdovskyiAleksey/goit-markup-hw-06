@@ -589,6 +589,7 @@ h5 {
 }
 
 .subscribe-title {
+  display: block;
   margin-bottom: 20px;
 
   font-family: Roboto;
@@ -646,6 +647,7 @@ h5 {
 }
 
 .appeal-title {
+  display: block;
   margin-bottom: 20px;
 
   font-family: Roboto;
@@ -1067,28 +1069,6 @@ h5 {
   text-align: center;
 }
 
-.form-icon {
-  display: inline-block;
-  align-items: center;
-  margin-right: 7px;
-  width: 16px;
-  height: 15px;
-  border: 2px solid var(--title-text-color);
-  border-radius: 2px;
-}
-
-.checkbox:focus + .form-icon {
-  border: 2px solid var(--accent-color);
-}
-
-.checkbox:checked + .form-icon {
-  background: var(--accent-color);
-  background-image: url(../images/check.svg);
-  background-size: contain;
-  background-origin: border-box;
-  border: var(--accent-color);
-}
-
 .policy-row {
   display: flex;
   align-items: center;
@@ -1100,6 +1080,29 @@ h5 {
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
+}
+
+.form-icon:before {
+  content: '';
+  display: block;
+  align-items: center;
+  margin-right: 7px;
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--title-text-color);
+  border-radius: 2px;
+}
+
+.checkbox:focus + .form-icon:before {
+  border: 2px solid var(--accent-color);
+}
+
+.checkbox:checked + .form-icon:before {
+  background: var(--accent-color);
+  background-image: url(../images/check.svg);
+  background-size: contain;
+  background-origin: border-box;
+  border: var(--accent-color);
 }
 
 .policy-link {
